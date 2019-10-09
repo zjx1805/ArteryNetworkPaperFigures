@@ -37,3 +37,12 @@ If you find the code useful for your research, please cite our paper:
 <img src="./figures/Speck_Flow_Simulation_RPCA.png" alt="(d)" title="(d)" width="960"  />
 
 Fluid flow simulation results of the four compartments (from top to bottom: LMCA/RMCA/LPCA/RPCA) of the Speck arterial network with 150/250 um resolution.
+
+---
+<img src="./figures/Speck_Mean_curvature_distribution_Compartment.png"  title="" width="960"/>
+
+<img src="./figures/Speck_Mean_curvature_vs_Graph_level_Compartment.png"  title="" width="960"/>
+
+<img src="./figures/Speck_Mean_curvature_vs_Branch_length_Compartment.png" title="" width="960"/>
+
+Distribution of the mean curvature of each branch, and relationship between curvature and graph level or branch length for each of the five compartments at Speck dataset. We studied the graph's shape in bifurcating nodes by calculating the local and remote amplitude angles, and found a high mean and a wide range of angles between two branches in each bifurcating node (e.g., mean$\pm$std of local amplitude is (104.19$\pm$32.23), with min-max range of 12.63-174.10). We further studied how branches curve by calculating their mean curvature, and found that there is a trend towards increasing curvature as graph levels increase, and as branch lengths decrease. 
