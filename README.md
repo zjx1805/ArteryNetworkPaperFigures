@@ -39,10 +39,39 @@ If you find the code useful for your research, please cite our paper:
 Fluid flow simulation results of the four compartments (from top to bottom: LMCA/RMCA/LPCA/RPCA) of the Speck arterial network with 150/250 um resolution.
 
 ---
-<img src="./figures/Speck_Mean_curvature_distribution_Compartment.png"  title="" width="960"/>
+<img src="./figures/Speck_Mean_curvature_distribution_Compartment.png"  title="" width="960" />
 
-<img src="./figures/Speck_Mean_curvature_vs_Graph_level_Compartment.png"  title="" width="960"/>
+<img src="./figures/Speck_Mean_curvature_vs_Graph_level_Compartment.png"  title="" width="960" />
 
-<img src="./figures/Speck_Mean_curvature_vs_Branch_length_Compartment.png" title="" width="960"/>
+<img src="./figures/Speck_Mean_curvature_vs_Branch_length_Compartment.png" title="" width="960" />
 
-Distribution of the mean curvature of each branch, and relationship between curvature and graph level or branch length for each of the five compartments at Speck dataset. We studied the graph's shape in bifurcating nodes by calculating the local and remote amplitude angles, and found a high mean and a wide range of angles between two branches in each bifurcating node (e.g., mean$\pm$std of local amplitude is (104.19$\pm$32.23), with min-max range of 12.63-174.10). We further studied how branches curve by calculating their mean curvature, and found that there is a trend towards increasing curvature as graph levels increase, and as branch lengths decrease. 
+Distribution of the mean curvature of each branch, and relationship between curvature and graph level or branch length for each of the five compartments at Speck dataset. We studied the graph's shape in bifurcating nodes by calculating the local and remote amplitude angles, and found a high mean and a wide range of angles between two branches in each bifurcating node (e.g., mean$\pm$std of local amplitude is (104.19+-32.23), with min-max range of 12.63-174.10). We further studied how branches curve by calculating their mean curvature, and found that there is a trend towards increasing curvature as graph levels increase, and as branch lengths decrease. 
+
+---
+<img src="./figures/BraVa_Mean_curvature_distribution_Compartment.png"  title="" width="960" />
+
+<img src="./figures/BraVa_Mean_curvature_vs_Graph_level_Compartment.png"  title="" width="960" />
+
+<img src="./figures/BraVa_Mean_curvature_vs_Branch_length_Compartment.png" title="" width="960" />
+
+Distribution of the mean curvature of each branch and relationship between curvature and graph level or branch length for each of the five compartments of the single subject from BraVa dataset.
+
+---
+<img src="./figures//Speck_LMCA_SingleCase_Option1_reducePercentage=30.png" title="" width="400"/>
+<img src="./figures//Speck_LMCA_numOfSegmentsChanged=7_Option1_reducePercentage=70.png" title="" width="400" />
+<img src="./figures/Speck_LMCA_SingleCase_Legend_Option1_Cropped.png" title="" width="151" />
+
+<img src="./figures//Speck_LMCA_SingleCase_Option2_reducePercentage=30.png" title="" width="400"/>
+<img src="./figures//Speck_LMCA_numOfSegmentsChanged=7_Option2_reducePercentage=70.png" title="" width="400" />
+<img src="./figures/Speck_LMCA_SingleCase_Legend_Option2_Cropped.png" title="" width="151" />
+
+<img src="./figures//Speck_LMCA_SingleCase_Option3_reducePercentage=30.png" title="" width="400"/>
+<img src="./figures//Speck_LMCA_numOfSegmentsChanged=7_Option3_reducePercentage=70.png" title="" width="400" />
+<img src="./figures/Speck_LMCA_SingleCase_Legend_Option3_Cropped.png" title="" width="151" />
+
+Pressure difference (shown by the color of the nodes) and flow velocity difference (shown by the color of the edges) before and after the radius of several selected segments are reduced by 30\% (left) or 70\% (right) of Speck LMCA. The selected segments have the value at both its end to be labeled as 1 and are chosen in three different ways: (1) N segments are chosen randomly in the network. (2) N segments are the immediate downstream segments below a random node (mimicking the condition when there is a stroke). (3) N segments are located in a random confined area (mimicking the condition when there is a tumor). 
+
+---
+<img src="./figures//perturb_multiple_cases_option1-3_N=3,5,7,10_reducePercentage=70.png" title="" width="800"/>
+
+The distribution of sum of the absolute pressure differences and the sum of pressure differences before and after radius of selected segments in LMCA are reduced. The segments are chosen in three different ways: (1) N segments are chosen randomly in the network; (2) N segments are the immediate downstream segments below a random node (mimicking the condition when there is a stroke); and (3) N segments are located in a random confined area (mimicking the condition when there is a tumor).
