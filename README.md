@@ -60,19 +60,19 @@ Distribution of the mean curvature of each branch and relationship between curva
 <p float="left">
 <img src="./figures//Speck_LMCA_SingleCase_Option1_reducePercentage=30.png" title="" width="370"/>
 <img src="./figures//Speck_LMCA_numOfSegmentsChanged=7_Option1_reducePercentage=70.png" title="" width="370" />
-<img src="./figures/Speck_LMCA_SingleCase_Legend_Option1_Cropped.png" title="" width="135" />
+<img src="./figures/Speck_LMCA_SingleCase_Legend_Option1_Cropped.png" title="" width="130" />
 </p>
 
 <p float="left">
 <img src="./figures//Speck_LMCA_SingleCase_Option2_reducePercentage=30.png" title="" width="370"/>
 <img src="./figures//Speck_LMCA_numOfSegmentsChanged=7_Option2_reducePercentage=70.png" title="" width="370" />
-<img src="./figures/Speck_LMCA_SingleCase_Legend_Option2_Cropped.png" title="" width="135" />
+<img src="./figures/Speck_LMCA_SingleCase_Legend_Option2_Cropped.png" title="" width="130" />
 </p>
 
 <p float="left">
 <img src="./figures//Speck_LMCA_SingleCase_Option3_reducePercentage=30.png" title="" width="370"/>
 <img src="./figures//Speck_LMCA_numOfSegmentsChanged=7_Option3_reducePercentage=70.png" title="" width="370" />
-<img src="./figures/Speck_LMCA_SingleCase_Legend_Option3_Cropped.png" title="" width="135" />
+<img src="./figures/Speck_LMCA_SingleCase_Legend_Option3_Cropped.png" title="" width="130" />
 </p>
 
 Pressure difference (shown by the color of the nodes) and flow velocity difference (shown by the color of the edges) before and after the radius of several selected segments are reduced by 30\% (left) or 70\% (right) of Speck LMCA. The selected segments have the value at both its end to be labeled as 1 and are chosen in three different ways: (1) N segments are chosen randomly in the network. (2) N segments are the immediate downstream segments below a random node (mimicking the condition when there is a stroke). (3) N segments are located in a random confined area (mimicking the condition when there is a tumor). 
