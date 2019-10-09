@@ -58,8 +58,8 @@ Distribution of the mean curvature of each branch and relationship between curva
 
 ---
 <p float="left">
-<img src="./figures//Speck_LMCA_SingleCase_Option1_reducePercentage=30.png" title="" width="400"/>
-<img src="./figures//Speck_LMCA_numOfSegmentsChanged=7_Option1_reducePercentage=70.png" title="" width="400" />
+<img src="./figures//Speck_LMCA_SingleCase_Option1_reducePercentage=30.png" title="" width="360"/>
+<img src="./figures//Speck_LMCA_numOfSegmentsChanged=7_Option1_reducePercentage=70.png" title="" width="360" />
 <img src="./figures/Speck_LMCA_SingleCase_Legend_Option1_Cropped.png" title="" width="151" />
 </p>
 
