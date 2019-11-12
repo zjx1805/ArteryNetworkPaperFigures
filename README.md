@@ -15,10 +15,6 @@ If you find the code useful for your research, please cite our paper:
 
 --->
 
-# Note
-
-This repository is temporarily made public for the sole purpose of code display for my PhD application (2020 Fall). It will go back to private after mid December unless the paper gets accepted by then. Until then the author does **not** consent to any kind of use of the code in this repository.
-
 
 
 <img src="./figures/ADAN_ParameterFitting.png" alt="(a)" title="(a)" width="960"  />
